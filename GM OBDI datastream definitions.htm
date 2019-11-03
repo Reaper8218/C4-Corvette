@@ -1,0 +1,1381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>GM OBDI datastream definitions</title>
+<style type="text/css">
+<!--
+.table-font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.contentRed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FF0000;
+}
+.body-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+-->
+</style>
+</head>
+<body>
+<table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr>
+<td><h2><font face="Arial, Helvetica, sans-serif">GM OBD-1 datastream definitions</font></h2>
+<p class="body-text">This list includes additional support for GM vehicles for OBD-1. Meaning they'll all work with TOAD software. <em></em></p>
+</td>
+</tr>
+</tbody></table>
+<p>&nbsp;</p>
+<table class="table-font" width="600" cellspacing="3" cellpadding="3" bordercolor="#CCCCCC" border="1" align="center">
+<tbody>
+<tr height="20">
+<td class="content" height="20" bgcolor="#333333"><div align="center"><font color="#FFFFFF"><strong>Datastream Number (click to download)</strong></font></div></td>
+<td class="content" bgcolor="#333333"><div align="center"><font color="#FFFFFF"><strong>Engine &amp; Vehicle Information</strong></font></div></td>
+<td class="content" bgcolor="#333333"><div align="center"><font color="#FFFFFF"><strong>Notes</strong></font></div></td>
+</tr>
+<tr height="20">
+<td class="content" width="105" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A001.ads">A001</a></div></td>
+<td class="content" width="237"><div align="left">LH8 82-86, LR8/L68/LQ9 83-86, LB8 85-86(TRUCKS), LU5 83</div></td>
+<td class="content" width="226">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A002.ads">A002</a></div></td>
+<td class="content"><div align="left">LN3 84</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A003.ads">A003</a></div></td>
+<td class="content"><div align="left">LG3/LG2/LC2 86</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A004.ads">A004</a></div></td>
+<td class="content"><div align="left">86 RIVIERA</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A005.ads">A005</a></div></td>
+<td class="content"><div align="left">LK9/LC4 84-85, LD5 84-87, LS5 85-86</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A006.ads">A006</a></div></td>
+<td class="content"><div align="left">LV2/L69/LG4/LG8/LM1 84</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A007.ads">A007</a></div></td>
+<td class="content"><div align="left">LG8/L69 85, LB1/LF3/LS9 85-86, LV2/LG4 85-87, LM1 85-88</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A008.ads">A008</a></div></td>
+<td class="content"><div align="left">LG2 86-87, LG3 86-88, LC2 86-89</div></td>
+<td class="content">160 BAUD, PIN E, USE OF A 10K ALTERS STREAM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A010.ads">A010</a></div></td>
+<td class="content"><div align="left">LN7 86</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A011.ads">A011</a></div></td>
+<td class="content"><div align="left">LN7 86-88</div></td>
+<td class="content">160 BAUD, PIN E, USE OF A 10K ALTERS STREAM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A012.ads">A012</a></div></td>
+<td class="content"><div align="left">LC3 84</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A014.ads">A014</a></div></td>
+<td class="content"><div align="left">LN3/LN7 85, LM9 84-85</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A015.ads">A015</a></div></td>
+<td class="content"><div align="left">LA5 84-85</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A016.ads">A016</a></div></td>
+<td class="content"><div align="left">LA5 86</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A017.ads">A017</a></div></td>
+<td class="content"><div align="left">LQ5 83-86, LR8 82</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A018.ads">A018</a></div></td>
+<td class="content"><div align="left">LC1/LH7/LL1 84, LE2/LR2 84-85</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A019.ads">A019</a></div></td>
+<td class="content"><div align="left">LE2 86</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A020.ads">A020</a></div></td>
+<td class="content"><div align="left">LB9 85, LB6 85-86, LB8 86-89</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A021.ads">A021</a></div></td>
+<td class="content"><div align="left">85 DEVILLE/FLEETWOOD LT8</div></td>
+<td class="content">160 BAUD, PIN E, MUST GROUND PIN B USING PWM(SEE A021 FOR DETAILS)</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A022.ads">A022</a></div></td>
+<td class="content"><div align="left">86-87 DEVILLE/FLEETWOOD LT8</div></td>
+<td class="content">160 BAUD, PIN E, MUST GROUND PIN B USING PWM(SEE A022 FOR DETAILS)</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A023</div></td>
+<td class="content"><div align="left">86-87 ELDORADO/SEVILLE LT8</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A024.ads">A024</a></div></td>
+<td class="content"><div align="left">LL8 87 J/L, 88 LL8 L(VIN UNDER 500,000)</div></td>
+<td class="content">8192 BAUD, PIN L/M, 1227730 ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A025.ads">A025</a></div></td>
+<td class="content"><div align="left">LB6 87 A/J, 88 L(EARLY VINS)</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A026.ads">A026</a></div></td>
+<td class="content"><div align="left">LT3 87-90</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A027.ads">A027</a></div></td>
+<td class="content"><div align="left">LT2 87, LR8/L68 87-88</div></td>
+<td class="content">8192 BAUD, PIN L/M, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A028</div></td>
+<td class="content"><div align="left">LB9 86-88, L98 85-88</div></td>
+<td class="content">160/8192 BAUD, PIN E, USE A 10K, SEE A028 FOR MORE INFO</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A029.ads">A029</a></div></td>
+<td class="content"><div align="left">L44 85-88</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A030.ads">A030</a></div></td>
+<td class="content"><div align="left">LB4 86-87(CARS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A032.ads">A032</a></div></td>
+<td class="content"><div align="left">LN8 87(TRUCKS)</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A33.ads">A033</a></div></td>
+<td class="content"><div align="left">L03/L05 87-88(TRUCKS), LB4 86-88(TRUCKS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A034.ads">A034</a></div></td>
+<td class="content"><div align="left">LN8 87-89</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A035.ads">A035</a></div></td>
+<td class="content"><div align="left">LL2 86-87(TRUCKS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A036.ads">A036</a></div></td>
+<td class="content"><div align="left">LL8 88 J, LL8 88 L(VIN &gt; 500,000), LL8 89 J/L</div></td>
+<td class="content">8192 BAUD, PIN L/M, USE A 10K, 1228321 ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A034.ads">A037</a></div></td>
+<td class="content"><div align="left">LT2 88</div></td>
+<td class="content">8192 BAUD, PIN L/M, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A038.ads">A038</a></div></td>
+<td class="content"><div align="left">LB6 87 A/J/L, LB6 88 A/L (ALL CALI EMISSIONS AND MAF)</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A039.ads">A039</a></div></td>
+<td class="content"><div align="left">LB6 88 J (SPEED-DENSITY)</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A040.ads">A040</a></div></td>
+<td class="content"><div align="left">LL2 88-93(TRUCKS), LG6 89(TRUCKS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A041.ads">A041</a></div></td>
+<td class="content"><div align="left">L03 88(CARS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A042</div></td>
+<td class="content"><div align="left">LN3 88</div></td>
+<td class="content">8192 BAUD, PIN L/M, SEE A042 FOR MORE INFO</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A043.ads">A043</a></div></td>
+<td class="content"><div align="left">LV2/LG8 88-90</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A044.ads">A044</a></div></td>
+<td class="content"><div align="left">LD2 88</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A045.ads">A045</a></div></td>
+<td class="content"><div align="left">LT8 83-85</div></td>
+<td class="content">160 BAUD, PIN D, DIFFERENT RESISTORS MODIFY THE STREAM, SEE A045</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A046</div></td>
+<td class="content"><div align="left">L62 81-84</div></td>
+<td class="content">80 BAUD, PIN D FOR 82-LATER, PIN B FOR 81, SEE A046</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A047.ads">A047</a></div></td>
+<td class="content"><div align="left">LT8 82</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A048.ads">A048</a></div></td>
+<td class="content"><div align="left">LQ5/LR9 82</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A049.ads">A049</a></div></td>
+<td class="content"><div align="left">LV8/LG4 82</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A051</div></td>
+<td class="content"><div align="left">LC7 87-88 ALLANTE</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A052.ads">A052</a></div></td>
+<td class="content"><div align="left">88-89 DEVILLE/FLEETWOOD LR6</div></td>
+<td class="content">160 BAUD, PIN E, MUST GROUND PIN B USING PWM(SEE A052 FOR DETAILS)</td>
+</tr>
+ <tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A53.ads">A053</a></div></td>
+<td class="content"><div align="left">L73 87-89</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A054</div></td>
+<td class="content"><div align="left">88-89 ELDORADO/SEVILLE LR6</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A055.ads">A055</a></div></td>
+<td class="content"><div align="left">LT2/L68 89</div></td>
+<td class="content">8192 BAUD, PIN L/M, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A057.ads">A057</a></div></td>
+<td class="content"><div align="left">LB6/LH0 87-90 WITH EVRV EGR</div></td>
+<td class="content">8192 BAUD, PIN L/M, SEE A057 FOR INFO</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A058.ads">A058</a></div></td>
+<td class="content"><div align="left">LB4/LU2/L03/L05/LS0/L19 89-91</div></td>
+<td class="content">160 BAUD, PIN E, SEE A058 FOR SPECIFIC MODEL INFO</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A059</div></td>
+<td class="content"><div align="left">LB9/L98 89</div></td>
+<td class="content">8192 BAUD, PIN E, USE A 10K, SEE A059 FOR SPECIFICS</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A060</div></td>
+<td class="content"><div align="left">LV2 83</div></td>
+<td class="content">80 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A061</div></td>
+<td class="content"><div align="left">LV2 82</div></td>
+<td class="content">80 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A062.ads">A062</a></div></td>
+<td class="content"><div align="left">L83/LU5 82</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A063.ads">A063</a></div></td>
+<td class="content"><div align="left">LB4/LB9 85, L83 83-85</div></td>
+<td class="content">160 BAUD, PIN E, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A064</div></td>
+<td class="content"><div align="left">EARLY CLC MOTORS, SEE A064</div></td>
+<td class="content">80 BAUD, PIN D EXCEPT FOR 81/82 J, PIN B, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A065.ads">A065</a></div></td>
+<td class="content"><div align="left">EARLY CLC MOTORS, SEE A065</div></td>
+<td class="content">160 BAUD, PIN B, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A066.ads">A066</a></div></td>
+<td class="content"><div align="left">LG4 88, L69 86-88</div></td>
+<td class="content">160 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A067.ads">A067</a></div></td>
+<td class="content"><div align="left">LH0 88-89</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A068.ads">A068</a></div></td>
+<td class="content"><div align="left">LB4 88(CARS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A069.ads">A069</a></div></td>
+<td class="content"><div align="left">LD2 88-89</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A071</div></td>
+<td class="content"><div align="left">LN3 88</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A072</div></td>
+<td class="content"><div align="left">LN3 89</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A073.ads">A073</a></div></td>
+<td class="content"><div align="left">LG7 89 A/N</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A074</div></td>
+<td class="content"><div align="left">87 TORONADO LG3</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A075</div></td>
+<td class="content"><div align="left">86 TORONADO LG3</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A076</div></td>
+<td class="content"><div align="left">LR2/LE3 83</div></td>
+<td class="content">80 BAUD, PIN D</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A077</div></td>
+<td class="content"><div align="left">LR1 83</div></td>
+<td class="content">80 BAUD, PIN D</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A078</div></td>
+<td class="content"><div align="left">LL4/LH6 84</div></td>
+<td class="content">100 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A079</div></td>
+<td class="content"><div align="left">LR1 84</div></td>
+<td class="content">80 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A080</div></td>
+<td class="content"><div align="left">LR1 84 ½</div></td>
+<td class="content">80 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A081</div></td>
+<td class="content"><div align="left">LL4/LH6 88</div></td>
+<td class="content">100 BAUD, PIN D, USE A 10K</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A083.ads">A083</a></div></td>
+<td class="content"><div align="left">L03 89-92</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A084.ads">A084</a></div></td>
+<td class="content"><div align="left">LB4 89-90(CARS)</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A085</div></td>
+<td class="content"><div align="left">89 TORONADO LN3</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A086</div></td>
+<td class="content"><div align="left">89 ALLANTE LQ6</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A088.ads">A088</a></div></td>
+<td class="content"><div align="left">LB6 87-88 (FED EMISSIONS AND MAF)</div></td>
+<td class="content">8192 BAUD, PIN L/M, SEE A088 FOR SPECIFICS</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A089.ads">A089</a></div></td>
+<td class="content"><div align="left">LG0 89</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A090.ads">A090</a></div></td>
+<td class="content"><div align="left">L03/L05 89-90 B</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A091.ads">A091</a></div></td>
+<td class="content"><div align="left">LG5 89</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A092.ads">A092</a></div></td>
+<td class="content"><div align="left">LD2 N, LG0 L/N, ALL 90</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A093.ads">A093</a></div></td>
+<td class="content"><div align="left">LD2/LG0 90 W</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A094CH.ads">A094CH</a> <a href="http://www.tunerpro.net/download/datastreams/GM/A094E.ads">A94E</a></div></td>
+<td class="content"><div align="left">LN3 91 H, LN3 90 C/H/E</div></td>
+<td class="content">8192 BAUD, PIN L/M, E-CARS HAVE DIFFERENT COMMAND</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A095.ads">A095</a></div></td>
+<td class="content"><div align="left">90-93 4.5/4.9 CADILLAC MOTORS, SEE A095</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A096.ads">A096</a></div></td>
+<td class="content"><div align="left">LR8 90 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A097.ads">A097</a></div></td>
+<td class="content"><div align="left">L68 90-91 N, LR8 90-92 A</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A098</div></td>
+<td class="content"><div align="left">LM3 90 L/J</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A099.ads">A099</a></div></td>
+<td class="content"><div align="left">LN8 90-91(TRUCKS)</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A100.ads">A100</a></div></td>
+<td class="content"><div align="left">LB9/L98 90-91</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A103.ads">A103</a></div></td>
+<td class="content"><div align="left">LG6 90-93</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A104.ads">A104</a></div></td>
+<td class="content"><div align="left">LB4 90-93</div></td>
+<td class="content">160 BAUD, PIN E, SEE A104 FOR SPECIFICS</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A106.ads">A106</a></div></td>
+<td class="content"><div align="left">L05/L19 90-93</div></td>
+<td class="content">160 BAUD, PIN E, SEE A106 FOR SPECIFICS</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A107.ads">A107</a></div></td>
+<td class="content"><div align="left">LS0/LR0/LB4 89-95</div></td>
+<td class="content">160 BAUD, PIN E, SEE A107 FOR SPECIFICS</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A109.ads">A109</a></div></td>
+<td class="content"><div align="left">LH0 90 WITH DIGI EGR</div></td>
+<td class="content">8192 BAUD, PIN M, SEE A109 FOR SPECIFICS</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A110.ads">A110</a></div></td>
+<td class="content"><div align="left">LG5 89-90</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A111.ads">A111</a></div></td>
+<td class="content"><div align="left">CCM FOR 90-91 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A112.ads">A112</a></div></td>
+<td class="content"><div align="left">L27 90 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A113.ads">A113</a></div></td>
+<td class="content"><div align="left">LG7 89-90</div></td>
+<td class="content">8192 BAUD, PIN L/M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A114.ads">A114</a></div></td>
+<td class="content"><div align="left">LT5 90</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A115.ads">A115</a></div></td>
+<td class="content"><div align="left">L98 90 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A116.ads">A116</a></div></td>
+<td class="content"><div align="left">L73 90-94</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A117.ads">A117</a></div></td>
+<td class="content"><div align="left">LT2 89-90</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A118.ads">A118</a></div></td>
+<td class="content"><div align="left">BCM FOR 90 ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A119.ads">A119</a></div></td>
+<td class="content"><div align="left">BCM FOR 90 RIVIERA/REATTA</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A120.ads">A120</a></div></td>
+<td class="content"><div align="left">BCM FOR 90 TORONADO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A121.ads">A121</a></div></td>
+<td class="content"><div align="left">BCM FOR 90 ALLANTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A122D.ads">A122D</a> <a href="http://www.tunerpro.net/download/datastreams/GM/A122F.ads">A122F</a></div></td>
+<td class="content"><div align="left">BCM FOR 90 DEVILLE/FLEETWOOD</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A123</div></td>
+<td class="content"><div align="left">LG3 87 BUICK E</div></td>
+<td class="content">8192 BAUD, PIN L FOR BCM, PIN M FOR ECM</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A125.ads">A125</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE, SEE A125 FOR INFO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A126.ads">A126</a></div></td>
+<td class="content"><div align="left">LW0/L01 90-92</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A129.ads">A129</a></div></td>
+<td class="content"><div align="left">91-93 TBI CARS, SEE A129 FOR INFO</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A130.ads">A130</a></div></td>
+<td class="content"><div align="left">L27 91 C, L27 92 H/C</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A131.ads">A131</a></div></td>
+<td class="content"><div align="left">ENGINE OIL LIFE MONITOR, SEE A131</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A132.ads">A132</a></div></td>
+<td class="content"><div align="left">REMOTE ACCESSORY CONTROL MODULE, SEE A132</div></td>
+<td class="content">8192 BAUD, PIN M FOR 93, PIN L FOR 92</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A133</div></td>
+<td class="content"><div align="left">4WHEEL ANTILOCK FOR 90-93 TRUCKS, SEE A133</div></td>
+<td class="content">9600 BAUD, PIN H</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A134</div></td>
+<td class="content"><div align="left">EBCM FOR 90-93 CARS, SEE A134</div></td>
+<td class="content">8192 BAUD, PIN M, GROUND MUST BE SUPPLIED TO PIN H</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A135.ads">A135</a></div></td>
+ <td class="content"><div align="left">LT2 90-91 J</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A136.ads">A136</a></div></td>
+<td class="content"><div align="left">LG6 91-95 U-VAN</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A137.ads">A137</a></div></td>
+<td class="content"><div align="left">LS0/LR0 91-95, SEE A137</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A138.ads">A138</a></div></td>
+<td class="content"><div align="left">LB4/L05/L19 91-93, SEE A138</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A139.ads">A139</a></div></td>
+<td class="content"><div align="left">L38 91-93(TRUCK)</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A140.ads">A140</a></div></td>
+<td class="content"><div align="left">LH0 91-94, SEE A140</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A141.ads">A141</a></div></td>
+<td class="content"><div align="left">LQ1 91</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A142.ads">A142</a></div></td>
+<td class="content"><div align="left">LT5 91</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A143.ads">A143</a></div></td>
+<td class="content"><div align="left">LG7 91-93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A144.ads">A144</a></div></td>
+<td class="content"><div align="left">LG0/LD2 91 L/N</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A145.ads">A145</a></div></td>
+<td class="content"><div align="left">LD2 91 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A146.ads">A146</a></div></td>
+<td class="content"><div align="left">BCM FOR 91 RIVIERA/REATTA</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A147.ads">A147</a></div></td>
+<td class="content"><div align="left">BCM FOR 91 TORONADO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A148.ads">A148</a></div></td>
+<td class="content"><div align="left">LH0 90-92 F W/ DIGI EGR</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A150.ads">A150</a></div></td>
+<td class="content"><div align="left">TCM STREAM FOR 91 LB4/L05/L19 TRUCKS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A151.ads">A151</a></div></td>
+<td class="content"><div align="left">BCM FOR 91-92 ALLANTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A152.ads">A152</a></div></td>
+<td class="content"><div align="left">BCM FOR 91 ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A153D.ads">A153D</a><br>
+<a href="http://www.tunerpro.net/download/datastreams/GM/A153F.ads">A153F</a></div></td>
+<td class="content"><div align="left">BCM FOR 91-93 DEVILLE/FLEETWOOD</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A154.ads">A154</a></div></td>
+<td class="content"><div align="left">L27 91-93 E(EXCEPT REATTA)</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A155.ads">A155</a></div></td>
+<td class="content"><div align="left">ABS MODULE FOR 91-93 C/H CARS, SEE A155</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A156.ads">A156</a></div></td>
+<td class="content"><div align="left">EBCM FOR 91-92 J/L/N CARS, SEE A156</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A156AM.ABS</div></td>
+<td class="content"><div align="left">PM3 ABS FOR 88-91 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A157.ads">A157</a></div></td>
+<td class="content"><div align="left">DIC MODULE FOR 91-93 OLDS C/H, SEE A157</div></td>
+<td class="content">8192 BAUD, PIN M FOR 91, PIN L FOR 92</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A159.ads">A159</a></div></td>
+<td class="content"><div align="left">TCM FOR LL4 91</div></td>
+<td class="content">8192 BAUD,, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A160.ads">A160</a></div></td>
+<td class="content"><div align="left">SYCLONE/TYPHOON</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A162.ads">A162</a></div></td>
+<td class="content"><div align="left">91 LUMINA 3.1 FLEX-FUEL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A163.ads">A163</a></div></td>
+<td class="content"><div align="left">L27/L67 92-93 C/H/U, SEE A163</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A164.ads">A164</a></div></td>
+<td class="content"><div align="left">HVAC MODULE FOR 92-93 C/H, SEE A164</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A165.ads">A165</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE, SEE A165</div></td>
+<td class="content">8192 BAUD, PIN L</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A167.ads">A167</a></div></td>
+<td class="content"><div align="left">LN2 92-93 J/L/W/A</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A168.ads">A168</a></div></td>
+<td class="content"><div align="left">LE4 92-94 J</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A169.ads">A169</a></div></td>
+<td class="content"><div align="left">LD2/LG0/L40 92 N/L</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A170.ads">A170</a></div></td>
+<td class="content"><div align="left">LD2 92 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A171.ads">A171</a></div></td>
+<td class="content"><div align="left">LT5 92</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A172</div></td>
+<td class="content"><div align="left">LT1 92-93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A173.ads">A173</a></div></td>
+<td class="content"><div align="left">CCM FOR 92-93 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A174.ads">A174</a></div></td>
+<td class="content"><div align="left">EBCM FOR 92 U/W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A175</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 92-94 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A176.ads">A176</a></div></td>
+<td class="content"><div align="left">L27 92 REATTA</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A177.ads">A177</a></div></td>
+<td class="content"><div align="left">TCM FOR 92-93 LB4/L05/L19</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A178.ads">A178</a></div></td>
+<td class="content"><div align="left">L35 92-94 TRUCK, SEE A178</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A179.ads">A179</a></div></td>
+<td class="content"><div align="left">L03/L05 92-95 TRUCKS, SEE A179</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A180</div></td>
+<td class="content"><div align="left">BCM FOR 92-93 RIVIERA/REATTA</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A181</div></td>
+<td class="content"><div align="left">BCM FOR 92-93 TORONADO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A182</div></td>
+<td class="content"><div align="left">BCM FOR 92 DEVILLE/FLEETWOOD</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A183</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 92 ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A184</div></td>
+<td class="content"><div align="left">LV6 92-93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A186.ads">A186</a></div></td>
+<td class="content"><div align="left">LQ1 92-93, LH0 93-94 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A187.ads">A187</a></div></td>
+<td class="content"><div align="left">91-92 LUMINA 3.1 FLEX-FUEL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A188</div></td>
+<td class="content"><div align="left">LB4 93 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A189</div></td>
+<td class="content"><div align="left">4WHEEL ANTILOCK FOR 92-95 TRUCKS, SEE A189</div></td>
+<td class="content">9600 BAUD, PIN H, PIN 12 FOR 95 S/T</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A190.ads">A190</a></div></td>
+<td class="content"><div align="left">REARWHEEL ANTILOCK FOR 93 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A191.ads">A191</a></div></td>
+<td class="content"><div align="left">A/C CONTROLLER FOR 93 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A192.ads">A192</a></div></td>
+<td class="content"><div align="left">LB4 94-95 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A193.ads">A193</a></div></td>
+<td class="content"><div align="left">4WHEEL ANTILOCK FOR 94-95 S/T TRUCKS</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A194.ads">A194</a></div></td>
+<td class="content"><div align="left">A/C CONTROLLER FOR 94-95 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A195.ads">A195</a></div></td>
+<td class="content"><div align="left">92 NATURAL GAS TRUCKS</div></td>
+<td class="content">160 BAUD, PIN E</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A196.ads">A196</a></div></td>
+<td class="content"><div align="left">TCM FOR 92-93 92-93 LL4/L65 TRUCKS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A197.ads">A197</a></div></td>
+<td class="content"><div align="left">ABS MODULE FOR 93 U/W, 94 LUMINA</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A198.ads">A198</a></div></td>
+<td class="content"><div align="left">EBCM FOR 93 F CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A199.ads">A199</a></div></td>
+<td class="content"><div align="left">EBCM FOR 93 S CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A200</div></td>
+<td class="content"><div align="left">L01 93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A201</div></td>
+<td class="content"><div align="left">L03/L05/L35/LB4 TRUCKS 93, SEE A201</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A202_5C27.ads">A202_5C27</a><br>
+<a href="http://www.tunerpro.net/download/datastreams/GM/A202_O.ads">A202_O</a></div></td>
+<td class="content"><div align="left">EBCM FOR 93 J/L/N AND 94 J</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A203.ads">A203</a></div></td>
+<td class="content"><div align="left">LD2/L40/LG0 93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A204</div></td>
+<td class="content"><div align="left">TCM FOR 93 TRUCKS, SEE A204</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A205.ads">A205</a></div></td>
+<td class="content"><div align="left">L27 93 C/H/W/U</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A206</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 93 ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A207.ads">A207</a></div></td>
+<td class="content"><div align="left">LT5 93-95</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A208</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 93 CADILLAC D</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A209</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 93 CADILLAC E/K/Ksp/V</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A210</div></td>
+<td class="content"><div align="left">L37 ALLANTE 92.5/93</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A211</div></td>
+<td class="content"><div align="left">BCM FOR 93-95 BROUGHAM</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A212</div></td>
+<td class="content"><div align="left">BCM FOR 93 ALLANTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A213</div></td>
+<td class="content"><div align="left">L05 93 CADILLAC D</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A214</div></td>
+<td class="content"><div align="left">93 W CALI SFI-LHO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A215</div></td>
+<td class="content"><div align="left">L32 93 F</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A216</div></td>
+<td class="content"><div align="left">TCM FOR 93 LH6 TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A217</div></td>
+<td class="content"><div align="left">94-95 TBI TRUCKS, SEE A217</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A218</div></td>
+<td class="content"><div align="left">TCM FOR 94-95 TBI TRUCKS, SEE A218</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A219</div></td>
+<td class="content"><div align="left">94-95 TBI TRUCKS, SEE A219</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A220</div></td>
+<td class="content"><div align="left">TCM FOR 94-95 TBI TRUCKS, SEE A220</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A221</div></td>
+<td class="content"><div align="left">L27/L67 94-95 C/H/W/U/G</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A222.ads">A222</a></div></td>
+<td class="content"><div align="left">LD2/L40 94-95 N</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A223</div></td>
+<td class="content"><div align="left">LT1 94-95 Y AUTO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A225</div></td>
+<td class="content"><div align="left">94-95 L49/L56/L65 DIESELS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A226</div></td>
+<td class="content"><div align="left">TCM FOR 94-95 L49/L56 DIESELS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A227</div></td>
+<td class="content"><div align="left">L82 93 CUTLASS SUPREME</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A228.ads">A228</a></div></td>
+<td class="content"><div align="left">L26 94-95 E/K/Ksp</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A229.ads">A229</a></div></td>
+<td class="content"><div align="left">DIC MODULE FOR 95 AURORA</div></td>
+<td class="content">8192 BAUD, PIN 1</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A230</div></td>
+<td class="content"><div align="left">HVAC MODULE FOR 94-95 4B/6D</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A231.ads">A231</a></div></td>
+<td class="content"><div align="left">HVAC MODULE FOR 94-95 C/H</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A232</div></td>
+<td class="content"><div align="left">HVAC MODULE FOR 95 AURORA/RIVIERA</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A233.ads">A233</a></div></td>
+<td class="content"><div align="left">RAC MODULE FOR C/G/H/W, SEE A233</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A234</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 94-95 3C/3H</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A235</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 95 AURORA</div></td>
+<td class="content">8192 BAUD, PIN 1</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A236.ads">A236</a></div></td>
+<td class="content"><div align="left">IPC MODULE FOR 95 RIVIERA</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A237</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 94-95 ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A239.ads">A239</a></div></td>
+<td class="content"><div align="left">CCM FOR 94 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A240.ads">A240</a></div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 94-95 C/G/H</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A241</div></td>
+<td class="content"><div align="left">ABS MODULE FOR 94 B/E/K/Ksp, SEE A241</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A242</div></td>
+<td class="content"><div align="left">AIRBAG MODULE FOR 93-95 VEHICLES, SEE A242</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A243.ads">A243</a></div></td>
+<td class="content"><div align="left">93 LUMINA 3.1&nbsp; FLEXFUEL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A244</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 94 DEVILLE 4.9</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A245.ads">A245</a></div></td>
+<td class="content"><div align="left">EBCM FOR 94-95 S CAR</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A246A.ads">A246A</a><br>
+<a href="http://www.tunerpro.net/download/datastreams/GM/A246B.ads">A246B</a></div></td>
+<td class="content"><div align="left">EBCM MODULE FOR 94-95 CARS, SEE A246</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A247.ads">A247</a></div></td>
+<td class="content"><div align="left">EBCM FOR 94 A/W/U AND 95 1W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A249.ads">A249</a></div></td>
+<td class="content"><div align="left">EBCM FOR 94 ABS ONLY F CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A250</div></td>
+<td class="content"><div align="left">EBCM FOR 94-95 ABS/TCS F CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A251</div></td>
+<td class="content"><div align="left">EBCM FOR 94 ABS/TCS U VANS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A252.ads">A252</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE FOR 94-95 CARS, SEE A252</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A253</div></td>
+<td class="content"><div align="left">93 NORTHSTAR ELDORADO/SEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A254</div></td>
+<td class="content"><div align="left">94-95 NORTHSTAR ELDORADO/SEVILLE/DEVILLE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A255</div></td>
+<td class="content"><div align="left">95 AURORA</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A256</div></td>
+<td class="content"><div align="left">L82 94 L</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A257</div></td>
+<td class="content"><div align="left">L32 94 F AUTO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A258</div></td>
+<td class="content"><div align="left">L32 94 F MANUAL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A259</div></td>
+<td class="content"><div align="left">L82 94-95 N</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A260</div></td>
+<td class="content"><div align="left">L82 94-95 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A261</div></td>
+<td class="content"><div align="left">L82 94-95 W 3T40</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A263</div></td>
+<td class="content"><div align="left">L82 94-95 A</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A264</div></td>
+<td class="content"><div align="left">LQ1 94-95 W</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A265</div></td>
+<td class="content"><div align="left">LN2 94-95 S/T TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A267</div></td>
+<td class="content"><div align="left">LH6 93 TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A268</div></td>
+<td class="content"><div align="left">L57 94-95 TRUCK</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="20">
+<td class="content" height="20"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A269.ads">A269</a></div></td>
+<td class="content"><div align="left">L40/LG0/LN2 N/L/J/A/W CARS, SEE A269</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A273</div></td>
+<td class="content"><div align="left">LT1 94-95 F MANUAL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A274</div></td>
+<td class="content"><div align="left">LT1 94-95 F AUTO</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A275</div></td>
+<td class="content"><div align="left">LT1 94-95 VETTE MANUAL</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A276</div></td>
+<td class="content"><div align="left">LT1/L99 94-95 B/D CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A277</div></td>
+<td class="content"><div align="left">L82 95 L 3T40</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A278</div></td>
+<td class="content"><div align="left">L32 95 F AUTO</div></td>
+<td class="content">8192 BAUD, PIN M OR 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A280</div></td>
+<td class="content"><div align="left">L36 95 C/H/G</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A281</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 95 B CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A283</div></td>
+<td class="content"><div align="left">EBCM FOR 95 M CAR</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A284</div></td>
+<td class="content"><div align="left">EBCM FOR 95 ABS/TCS CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A285</div></td>
+<td class="content"><div align="left">EBCM FOR 95 W W/ABS AND VES</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A286</div></td>
+<td class="content"><div align="left">EBCM FOR 95 F CARS WITH ABS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A287</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 95 E/K/Ksp CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A288</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 95 VETTE</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A290</div></td>
+<td class="content"><div align="left">ABS/ASR MODULE FOR 95 D CAR</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A293</div></td>
+<td class="content"><div align="left">EBCM FOR 95 A/W/U ABS ONLY CARS, SEE A293</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center">A294</div></td>
+<td class="content"><div align="left">IPC MODULE FOR 95 J CARS</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A295.ads">A295</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE FOR 95 2/3/4W CARS</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A296.ads">A296</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE FOR 95 E/K/Ksp</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A297.ads">A297</a></div></td>
+<td class="content"><div align="left">CCM FOR 95 VETTE</div></td>
+<td class="content">8192 BAUD, PIN 9</td>
+</tr>
+<tr height="19">
+<td class="content" height="19"><div align="center"><a href="http://www.tunerpro.net/download/datastreams/GM/A300.ads">A300</a></div></td>
+<td class="content"><div align="left">AIRBAG MODULE FOR 95 M</div></td>
+<td class="content">8192 BAUD, PIN M</td>
+</tr>
+</tbody>
+</table>
+<p class="body-text" align="center"><a href="http://www.totalcardiagnostics.com/pages/obd1-tested-vehicles.htm" style="color:#0000FF; text-decoration:underline"><strong>Back to OBD-1 Tested Vehicles Page</strong></a></p>
+
+
+</body></html>
